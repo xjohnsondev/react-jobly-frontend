@@ -1,0 +1,25 @@
+.comp-display {
+min-height: 100vh;
+padding-bottom: 30px;
+}
+
+.comp-listing{
+    list-style: none;
+    border: 1px black solid;
+    width: 45%;
+    height: 180px;
+    margin: 20px auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comp-listing:hover{
+    background-color:rgb(102, 109, 219);
+}
+
+.comp-listing > h4 {
+    margin: 15px auto;
+}

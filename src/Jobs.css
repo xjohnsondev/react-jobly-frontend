@@ -1,0 +1,29 @@
+.jobs-display {
+    padding-bottom: 40px;
+}
+
+
+.job-listing{
+    list-style: none;
+    border: 1px black solid;
+    width: 45%;
+    height: 180px;
+    margin: 20px auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+}
+
+.job-listing > h4 {
+    margin: 15px auto;
+}
+
+.apply-btn {
+    transform: translate(275px, -100px);
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+}

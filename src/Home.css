@@ -1,0 +1,17 @@
+.home-display {
+    background-image: url("./background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -10px;
+}
+
+.home-display > h1 {
+    color: gold;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+    font-size: 120px;
+}
