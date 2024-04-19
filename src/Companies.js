@@ -16,16 +16,14 @@ const Companies = () => {
   useEffect(() => {
     // Populate all companies
     async function getData() {
-      console.log(user);
       try {
         const response = await JoblyApi.getAllCompanies();
-        setCompanies(response.data.companies);
+        setCompanies(response);
       } catch (error) {
         console.error("Error fetching companies:", error);
       }
     }
     getData();
-    console.log(companies);
   }, []);
 
   // filter companies based on search form

@@ -9,15 +9,13 @@ const Jobs = () => {
   const user = useContext(UserContext);
   const [jobs, setJobs] = useState([]);
   const [applied, setApplied] = useState([]);
-  console.log(user.currentUser);
 
   // Lists all jobs
   useEffect(() => {
     async function getData() {
       try {
-        const response = await axios.get(`http://localhost:3001/jobs`);
+        const response = await JoblyApi.getJobs();
         setJobs(response.data.jobs);
-        console.log(response.data.jobs);
       } catch (e) {
         console.log(e);
       }
