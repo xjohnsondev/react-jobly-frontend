@@ -4,7 +4,6 @@
 
 
 .job-listing{
-    position: relative;
     list-style: none;
     border: 1px black solid;
     width: 45%;
@@ -20,13 +19,11 @@
 }
 
 .apply-btn {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    transform: translate(175px, -250px);
     background-color: #3498db;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
-    height: 50px;
-    width: 100px;
+    height: 30px;
+    width: 90px;
 }
