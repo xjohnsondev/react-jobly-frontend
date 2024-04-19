@@ -19,11 +19,11 @@
 }
 
 .apply-btn {
-    transform: translate(175px, -250px);
+    transform: translate(200px, -125px);
     background-color: #3498db;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
-    height: 30px;
+    height: 35px;
     width: 90px;
 }
