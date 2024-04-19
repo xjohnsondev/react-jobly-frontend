@@ -29,9 +29,8 @@ const Companies = () => {
   // filter companies based on search form
   const filterData = async (searchTerm) => {
     try {
-      console.log(searchTerm);
       const filterData = await JoblyApi.getCompanies(searchTerm);
-      setFilteredCompanies(filterData.data.companies);
+      setFilteredCompanies(filterData);
       console.log("Filtered:", filteredCompanies);
     } catch (error) {
       console.error("Error fetching filtered companies:", error);
