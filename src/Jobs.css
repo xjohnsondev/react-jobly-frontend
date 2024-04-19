@@ -4,6 +4,7 @@
 
 
 .job-listing{
+    position: relative;
     list-style: none;
     border: 1px black solid;
     width: 45%;
