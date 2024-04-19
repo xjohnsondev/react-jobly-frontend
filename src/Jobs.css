@@ -19,7 +19,9 @@
 }
 
 .apply-btn {
-    transform: translate(275px, -100px);
+    position: absolute;
+    bottom: 0;
+    right: 0;
     background-color: #3498db;
     color: #fff;
     border-radius: 4px;

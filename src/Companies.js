@@ -31,7 +31,6 @@ const Companies = () => {
     try {
       const filterData = await JoblyApi.getCompanies(searchTerm);
       setFilteredCompanies(filterData);
-      console.log("Filtered:", filteredCompanies);
     } catch (error) {
       console.error("Error fetching filtered companies:", error);
     }

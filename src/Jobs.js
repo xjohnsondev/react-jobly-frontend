@@ -29,11 +29,8 @@ const Jobs = () => {
   // Applys to selected job
   const handleApply = (e, job) => {
     e.preventDefault();
-    console.log(e.target);
-    console.log(job);
     let response = JoblyApi.applyToJob(user.currentUser.username, job.id).then(
       (res) => {
-        console.log(res);
         setApplied([...applied, job.id]);
       }
     );
