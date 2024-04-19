@@ -15,7 +15,7 @@ const Jobs = () => {
     async function getData() {
       try {
         const response = await JoblyApi.getJobs();
-        setJobs(response.data.jobs);
+        setJobs(response);
       } catch (e) {
         console.log(e);
       }

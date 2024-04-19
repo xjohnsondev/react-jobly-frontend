@@ -70,7 +70,6 @@ const Companies = () => {
       const jobs = res.filter((job) => {
         return job.companyName === comp;
       });
-      console.log(jobs);
       setCompJobs(jobs);
     });
   };
